@@ -1,0 +1,13 @@
+{
+	"name":  "Who is present?", 
+	"version": "0.5",  
+	"manifest_version": 2,
+	"browser_action": {				
+		"default_popup": "popup.html" 
+	},	
+	"background": {
+		"scripts": ["script.js","pressbutton.js","savescript.js"],
+		"persistent": false	
+	},
+	"permissions": [ "alarms", "activeTab", "storage"]	
+}
